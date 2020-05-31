@@ -63,7 +63,7 @@ but those lines of codes were commented out at this stage. Let's try with only i
 
 How to use this code:
 - simply run the code in command line by parsing image directory, for example:
-    python encode_dicom_V5_rev1.py --imgdir <image directory>
+    python encode_DICOM.py --imgdir <image directory>
     if no image directory is specified, the program will browse through default 'images' folder located at the same level as python code
     i.e. you can copy images to the 'images' folder instead of parsing --imgdir argument
 - The program will output two things to the 'dcm_mod' folder:
